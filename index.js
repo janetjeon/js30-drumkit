@@ -19,7 +19,7 @@ function playSound(e) {
     if (e.propertyName !== 'transform') return; // skip it if it's not a transform
     // console.log(e);
     // console.log(e.propertyName);
-    console.log(this) // 'this' is equal to the actual key
+    // console.log(this) // 'this' is equal to the actual key
     // remove the class of 'playing' once the transitionend is fired 
     this.classList.remove('playing');
   }
